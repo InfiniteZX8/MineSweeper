@@ -10,7 +10,7 @@ cMain::cMain(): wxFrame(nullptr, wxID_ANY, "GameDevIsKillingMe-MineSweeper",wxPo
 
 	mField = new int[mFieldWidth * mFieldHeight];
 
-	wxFont font(24, wxFONTFAMILY_DEFAULT, wxFONTSTYLE_NORMAL, wxFONTWEIGHT_BOLD, false);
+	wxFont font(25, wxFONTFAMILY_DEFAULT, wxFONTSTYLE_NORMAL, wxFONTWEIGHT_BOLD, false);
 	for (int x = 0; x < mFieldWidth; x++) 
 	{
 		for (int y = 0; y < mFieldHeight; y++) 
